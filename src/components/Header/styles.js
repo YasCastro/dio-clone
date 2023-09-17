@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  max-width:; 80%;
-  height: 70px;
+  max-width: 80%;
+  height: 100px;
 
   display: flex;
   justify-item: space-between;
@@ -25,9 +25,10 @@ export const Column = styled.div`
 `
 
 export const Wrapper = styled.div`
-  background-color: #151515;
+  background-color: #22202D;
   width: 100%;
-  height: 70px;
+
+  height: 100px;
   display: flex.
   justify-element: center;
   align-items: center;
@@ -36,7 +37,7 @@ export const Wrapper = styled.div`
 export const BuscarInputContainer = styled.div`
   width: 175px;
   height: 38px;
-  background: #202037;
+  background: #33303D;
   border-radius: 8px;
   padding: 2px 5px;
   margin: 0 12px;
@@ -81,7 +82,7 @@ export const Input = styled.input`
 `
 
 export const Logo = styled.img`
-  width:40px;
-  height:40px;
-  margin: 15px;
+  width:50px;
+  height:50px;
+  margin: 85px;
 `

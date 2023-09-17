@@ -2,19 +2,22 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
-} from 'react-router-dom';
+} from "react-router-dom";
+import { Feed } from "./pages/Feed";
 
-import { Home } from './pages/Home';
-import { Login } from './pages/Login';
+import { Home } from './pages/Home'
+import { Login } from './pages/Login'
+import { GlobalStyle } from './styles/global';
 
 function App() {
   return (
     <Router>
-      <Routes>
+     <GlobalStyle />
+     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />   
-      </Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/feed" element={<Feed />} />
+     </Routes >
     </Router>
   );
 }
